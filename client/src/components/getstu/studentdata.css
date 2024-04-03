@@ -1,0 +1,72 @@
+.studentTable {
+  width: 60%;
+  background-color: white;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  margin: 50px auto;
+  padding: 50px;
+}
+.addBtn {
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  font-weight: 500;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.studentTable table {
+  width: 100%;
+  margin-top: 30px;
+}
+.studentTable table thead th {
+  background-color: darkblue;
+  color: white;
+  padding: 10px;
+}
+.studentTable table tbody td {
+  text-align: center;
+  padding: 10px;
+}
+.actionBtn button {
+  border: 0;
+  outline: none;
+  background: red;
+  padding: 8px 10px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.actionBtn a {
+  text-decoration: none;
+  background: green;
+  padding: 6px 10px;
+
+  margin: 0px 10px;
+  color: white;
+  border-radius: 5px;
+}
+.flex-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.top-right {
+  padding: 10px;
+}
+.top-right input {
+  padding: 6px 10px;
+}
+.top-right button {
+  text-decoration: none;
+  background-color: purple;
+  color: white;
+  font-weight: 500;
+  box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.065);
+  border-radius: 5px;
+  padding: 8px 10px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
